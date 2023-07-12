@@ -1,0 +1,10 @@
+<div>
+  <h3>
+    <a [title]="item.name + ' details'" [routerLink]="['/items', item.id]"
+      >{{ item.name }}
+    </a>
+  </h3>
+  <p>{{ item.description }}</p>
+  <button (click)="shareClick()">Share</button>
+</div>
+  
